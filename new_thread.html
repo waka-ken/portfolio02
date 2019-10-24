@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>smart log|無料エンジニア向け相談掲示板|</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    </head>
+    <body class="bg-light">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top box-shadow" style="opacity: 0.8;">
+                <div class="container">
+                    <!--ロゴ-->
+                    <a class="navbar-brand col-sm-6" href="index.html">
+                        <h2>Smart log</h2>
+                    </a>
+                    <!--/ロゴ-->
+                    <!--ナビメニュー-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="=Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-sm-6" id="navbar-content">
+                        <ul class="navbar-nav textalign-end">
+                            <li class="nav-item col-sm-3"><a href="#top" class="nav-link">Top</a></li>
+                            <li class="nav-item col-sm-3"><a href="#news" class="nav-link">login</a></li>
+                            <li class="nav-item col-sm-3"><a href="#profiles" class="nav-link">Profile</a></li>
+                            <li class="nav-item col-sm-3"><a href="#archives" class="nav-link">Archives</a></li>
+                        </ul>
+                    </div>
+                    <!--/ナビメニュー-->
+                </div>
+            </nav>
+            <!--/ヘッダー-->
+        </header>
+        <main>
+        <!--メイン-->
+            
+        <div class="py-3">
+            <div class="container">
+                <h3 class="mb-3">新規スレッド作成</h3>
+                <form>
+                    <div class="form-group row">
+                        <label for="title" class="col-md-3 col-form-label">
+                            タイトル<span class="badge badge-warning">必須</span>
+                        </label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="title"" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="message" class="col-md-3 col-form-label">
+                            内容<span class="badge badge-warning">必須</span>
+                        </label>
+                        <div class="col-md-9">
+                            <textarea class="form-control" id="massage" rows="8" name="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="fom-group row justify-content-end">
+                        <div class="col-md-9">
+                            <button type="submit" class="btn btn-primary">作成する</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!--/メイン-->
+        </main>
+        <footer class="py-4 bg-dark text-light">
+            <div class="container text-center">
+                <p><small>copylight &copy;2019 Smart log All Righst Reserved.</small></p>
+            </div>
+    
+        </footer>
+    </body>
+    <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
+        
