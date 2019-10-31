@@ -32,6 +32,7 @@ cssフレームワーク　Bootstrap
             意図しない文字入力を検出、文字数の制限、パスワードの暗号化<br>
             追加：画像ファイルの拡張子検証機能
         </p>
+        <video src="image\chap01.mp4" autoplay muted playsinline></video>
     </li>       
     <li>
         <h4>ログイン/ログアウト機能</h4>
@@ -41,6 +42,7 @@ cssフレームワーク　Bootstrap
             PDOを用いたDB接続、DBの内容から任意のカラムを選択し取り出す<br>
             cookieを用いたセッション管理でログイン状態の安全性を確保
         </p>
+        <video src="image\chap02.mp4" autoplay muted playsinline></video>
     </li>
     <li>
         <h4>スレッド立上げ機能（使用者個人が管理する掲示板）</h4>
@@ -54,6 +56,7 @@ cssフレームワーク　Bootstrap
             立ち上げたスレッド内でメッセージのやり取りができるような機能
             任意のアカウントへの返信機能
         </p>
+        <video src="image\chap03.mp4" autoplay muted playsinline></video>
     </li>
 </ul>
 <hr>
